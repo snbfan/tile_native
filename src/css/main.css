@@ -1,0 +1,88 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 150px;
+    font-size: 14px;
+    color: Black;
+}
+
+body > .container {
+    padding: 70px 0px 0px 0px;
+}
+
+nav > .container {
+    margin-left: 3%;
+}
+
+.footer {
+    height: 150px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+.col-sm-3, .col-sm-6, .col-sm-12 {
+    padding-left:5px !important;
+    padding-right: 5px !important;
+}
+
+.tile {
+    width: 100%;
+    min-height: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item {
+    position: relative;
+    background-image: url('../img/spinner.gif');
+    background-size: cover;
+}
+
+.item h5 {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    font-weight: 800;
+}
+
+.item:hover > h5 {
+    visibility: visible;
+}
+
+.black {
+    background: #000;
+}
+
+.black:hover {
+    background: #979797;
+}
+
+.green {
+    background: #b2d9ba;
+}
+.green:hover {
+    background: #cfeed3;
+    opacity: 0.8;
+}
+
+.blue {
+    background: #86bdff;
+}
+.blue:hover {
+    background: #d2e8ff;
+    opacity: 0.8;
+}
